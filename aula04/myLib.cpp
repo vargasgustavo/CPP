@@ -3,6 +3,7 @@
 #define _MYLIB_CPP_
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
