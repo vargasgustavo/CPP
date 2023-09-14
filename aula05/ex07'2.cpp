@@ -7,11 +7,11 @@ int main(){
     // Leitura
     for (i = 0; i < 3; i++){
         cout << "Digite um inteiro ";
-        cin >> vet[i];
+        cin >> *(vet + i);
     }
     // Impressão
     for (i = 0; i < 3; i++){
-        cout << vet[i];
+        cout << vet[i] << endl;
     }
 
     return 0;
