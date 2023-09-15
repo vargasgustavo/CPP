@@ -21,7 +21,7 @@ int main(){
             menor = vet[i];
     }
     
-    media = soma / VET;
+    media = (float)soma / VET;
 
     cout << "Somatoria " << soma << endl;
     cout << "Maior " << maior << endl;
