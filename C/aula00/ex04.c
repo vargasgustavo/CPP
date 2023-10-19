@@ -2,16 +2,13 @@
 #include <string.h>
 
 int main(){
-    FILE *f;
-    f = fopen("arquivo01.txt", "w");
+    char nome[30] = "Gustavo";
+    int idade = 19;
+    float altura = 1.66; 
+    FILE *f = fopen("arquivo01.txt", "w");
     if (f == NULL){
-        printf("Erro abertura arquivo");
         return -1;
     }
-    char texto[50] = "Meu primeiro programa com arquivo em C";
-    int i;
-    for (i = 0; i < strlen(texto); i++){
-        fputc(texto[i], f);
-    }
+    fprintf(f, "Nome: %-30s\nIdade: %d\nAltura: %f\n", nome, idade, altura);
     fclose(f); return 0;
 }

@@ -1,0 +1,2 @@
+Meu novo programa com arquivo em C
+C foi criado por Dennis Ritchie em 1972
