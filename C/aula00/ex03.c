@@ -14,5 +14,5 @@ int main(){
         letra = fgetc(f);
         printf("%c", letra);
     }
-    printf("\n"); (f); return 0;
+    printf("\n"); fclose(f); return 0;
 }
